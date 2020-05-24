@@ -39,5 +39,5 @@ export class Mapping extends Component{
 }
 
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyDqGvdSHQ1eNmzYolA2JaQwTyxXdOdLO-E')
+  apiKey: (process.env.API_KEY)
 })(Mapping)
