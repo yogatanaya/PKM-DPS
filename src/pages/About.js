@@ -3,15 +3,13 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 class About extends React.Component{
   render(){
-    return(<div className="container center">
-        <div className="row justify-content-center">
-          <h3 style={{
-            fontWeight: '800',
-            letterSpacing: '0.2em'
-          }}>Tentang PKM (Pembatasan Kegiatan Masyarakat)</h3>
-        </div>
-        <hr style={{ width: '10%' }}/>
-        <div className="row justify-content-center">
+    return(<div className="container" style={{ marginTop: '20%'}}>
+      <div class="row justify-content-center">
+        <h3>
+        Tentang PKM Denpasar
+        </h3>
+      </div>
+       <div className="row justify-content-center">
           <div className="col-md-8">
             <p id="text-about">
               Berkaitan dengan pandemi Covid 19 Pemerintah Kota Denpasar memberlakukan 
@@ -30,7 +28,6 @@ class About extends React.Component{
             <Link to="/map" className="btn btn-lg btn-location">Peta Lokasi</Link>
           </div>
         </div>
-   
     </div>)
   }
 }
