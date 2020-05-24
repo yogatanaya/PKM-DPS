@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 class Home extends React.Component{
   render(){
-    return(<div className="container" style={{ marginTop: '40%'}}>
+    return(<div className="container" style={{ marginTop: '70px'}}>
         <div className="row justify-content-center">
           <h3>Aplikasi Mapping Wilayah Pembatasan Kegiatan Masyarakat</h3>
         </div>
@@ -12,12 +12,12 @@ class Home extends React.Component{
         </div>
         <hr style={{ width: '10%' }}/>
         <div className="row justify-content-center">
-          <div className="col">
+          <div className="col-md-4">
             <Link to="/about" className="link btn btn-lg btn-about">
               About
             </Link>
           </div>
-          <div className="col">
+          <div className="col-md-4">
             <Link className="link btn btn-lg btn-location" to="/map">
               Peta Lokasi
             </Link>

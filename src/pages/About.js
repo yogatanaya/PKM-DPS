@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 class About extends React.Component{
   render(){
-    return(<div className="container" style={{ marginTop: '20%'}}>
+    return(<div className="container" style={{ marginTop: '40px'}}>
       <div class="row justify-content-center">
         <h3>
         Tentang PKM Denpasar
