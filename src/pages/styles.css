@@ -1,0 +1,47 @@
+.center{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card{
+  border: none;
+  background-color: #6083fe;
+}
+.card-text{
+  font-weight: 800;
+  font-size: 17pt;
+  color: #fff;
+}
+.link{
+  color: #fff;
+}
+.link:hover{
+  text-decoration: none;
+}
+#text-about{
+  text-align: justify;
+}
+.btn-about{
+  border-radius: 50px;
+  background-color: #0404fc;
+  color: white;
+  padding: 12px;
+  width: 100%;
+}
+.btn-about:hover{
+  color: white;
+}
+.btn-location{
+  border-radius: 50px;
+  background-color: #0404fc;
+  color: white;
+  padding: 12px;
+  width: 100%;
+}
+.btn-location:hover{
+  color: white;
+}
